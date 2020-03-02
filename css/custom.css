@@ -1,0 +1,55 @@
+/* custom css to fit vertial hight */
+/*
+.reveal .slides {
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+*/
+.reveal .slides {
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+.reveal blockquote {
+  width:100%;
+  text-align: left;}
+
+.reveal p {
+  text-align: left;}
+
+/* center the image and max width set to 50%*/
+.reveal section img {
+  margin: auto;
+  width: 50%;
+  display: block;}
+
+.reveal li{
+
+  text-align: left;
+}
+
+.reveal ul{
+  display: block;
+  text-align: left;
+}
+
+
+/*
+  .reveal p {
+   text-align: left;
+  }
+  .reveal img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+  .reveal ul {
+    display: block;
+  }
+  .reveal ol {
+    display: block;
+  }
+*/

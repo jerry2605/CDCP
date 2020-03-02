@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>NetApp Data Broker Deployment Guide</title>
+		<meta name="author" content="Liu Haopeng">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- <link rel="stylesheet" href="css/theme/black.css"> -->
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+        <section data-markdown="markdown/NetAppDataBrokerDeployment.db"
+				    data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n">
+				</section>
+
+				<!--
+                <section>
+                     <pre><code class="hljs" data-line-numbers>
+                    import React, { useState } from 'react';
+
+                    function Example() {
+                      const [count, setCount] = useState(0);
+
+                      return (
+                        <div>
+                          <p>You clicked {count} times</p>
+                          <button onClick={() => setCount(count + 1)}>
+                            Click me
+                          </button>
+                        </div>
+                      );
+                    }
+                    </code></pre>
+                </section>
+
+				<section>
+                    <h2>Some Slide</h2>
+
+                    <aside class="notes">
+                        Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+                    </aside>
+                </section>
+
+                <section>
+                    <p class="fragment grow">grow</p>
+                    <p class="fragment shrink">shrink</p>
+                    <p class="fragment fade-out">fade-out</p>
+                    <p class="fragment fade-up">fade-up (also down, left and right!)</p>
+                    <p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
+                    <p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
+                    <p class="fragment highlight-current-blue">blue only once</p>
+                    <p class="fragment highlight-red">highlight-red</p>
+                    <p class="fragment highlight-green">highlight-green</p>
+                    <p class="fragment highlight-blue">highlight-blue</p>
+                </section>
+				-->
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+
+				// The "normal" size of the presentation, aspect ratio will be preserved
+				// when the presentation is scaled to fit different resolutions. Can be
+				// specified using percentage units.
+				width: 1920,
+				height: 1500,
+
+				// Factor of the display size that should remain empty around the content
+				margin: 0.1,
+
+				// Bounds for smallest/largest possible scale to apply to content
+				//minScale: 0.2,
+				//maxScale: 1.5
+
+				//custom scaling
+				//width: "70%",
+				//height: "100%",
+				//margin: 0,
+				//minScale: 1,
+				//maxScale: 1,
+
+				hash: true,
+				controls: true,
+                                progress: true,
+                                history: true,
+                                //center: true,
+                                //transition: 'cube', // none/fade/slide/convex/concave/zoom
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+		            // Zoom in and out with Alt+click
+		            { src: 'plugin/zoom-js/zoom.js', async: true },
+				]
+			});
+		</script>
+	</body>
+</html>
