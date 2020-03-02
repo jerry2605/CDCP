@@ -12,7 +12,8 @@ There are 2 methods.
 
 ## How to change to your markdown file
 * Copy your **markdown file** to the folder markdown
-* Locate **index.html**. Replace your_markdown.md to your markdown file name.
+* Locate **index.html**. Go to Setting --> Options --> GitHub Pages --> Source --> choose master branch. The page will be published at https://\<your_github_id\>
+/CDCP/
 
 ```html
 <section data-markdown="markdown/<your_markdown.md>"
